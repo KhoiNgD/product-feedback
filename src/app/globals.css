@@ -2,44 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  h1 {
-    font-size: 1.5rem;
-    font-weight: 700;
-    line-height: 35px;
-    letter-spacing: -0.33px;
-  }
-
-  h2 {
-    font-size: 1.25rem;
-    line-height: 29px;
-    letter-spacing: -0.25px;
-  }
-
-  h3 {
-    font-size: 1.125rem;
-    line-height: 26px;
-    letter-spacing: -0.25px;
-  }
-
-  h4 {
-    font-size: 0.875rem;
-    line-height: 20px;
-    letter-spacing: -0.2px;
-  }
-
-  p1 {
-    font-size: 1rem;
-    line-height: 23px;
-  }
-
-  p2 {
-    font-size: 0.9375rem;
-    line-height: 22px;
-  }
-
-  p3 {
-    font-size: 0.8125rem;
-    line-height: 19px;
-  }
+:root {
+  --white: #fff;
+  --purple: #ad1fea;
+  --blue: #4661e6;
+  --orange: #f49f85;
+  --blue-sky: #62bcfa;
+  --dark-primary: #373f68;
+  --dark-secondary: #3a4374;
+  --gray: #f2f4ff;
+  --gray-dark: #647196;
+  --gray-light: #f7f8fd;
 }

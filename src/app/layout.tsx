@@ -16,8 +16,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className={jost.className}>
+    <html lang="en" className="bg-gray-light">
+      <body className={`${jost.className} w-full max-w-[1110px] m-auto`}>
         <Providers>{children}</Providers>
       </body>
     </html>
