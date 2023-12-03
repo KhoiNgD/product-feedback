@@ -21,7 +21,10 @@ const config: Config = {
     colors: {
       white: "var(--white)",
       purple: "var(--purple)",
+      "purple-button-hover": "var(--purple-button-hover)",
       blue: "var(--blue)",
+      "blue-button-hover": "var(--blue-button-hover)",
+      "blue-link-hover": "var(--blue-link-hover)",
       orange: "var(--orange)",
       "blue-sky": "var(--blue-sky)",
       "dark-primary": "var(--dark-primary)",
@@ -39,30 +42,42 @@ const config: Config = {
           medium: "10px",
         },
       },
+      // themes: {
+      //   light: {
+      //     layout: {
+      //       hoverOpacity: 0,
+      //     },
+      //   },
+      //   dark: {
+      //     layout: {
+      //       hoverOpacity: 0,
+      //     },
+      //   },
+      // },
     }),
     plugin(function ({ addUtilities }) {
       addUtilities({
         ".h1": {
           fontSize: "1.5rem",
-          fontWeight: '700',
+          fontWeight: "700",
           lineHeight: "35px",
           letterSpacing: "-0.33px",
         },
         ".h2": {
           fontSize: "1.25rem",
-          fontWeight: '700',
+          fontWeight: "700",
           lineHeight: "29px",
           letterSpacing: "-0.25px",
         },
         ".h3": {
           fontSize: "1.125rem",
-          fontWeight: '700',
+          fontWeight: "700",
           lineHeight: "26px",
           letterSpacing: "-0.25px",
         },
         ".h4": {
           fontSize: "0.875rem",
-          fontWeight: '700',
+          fontWeight: "700",
           lineHeight: "20px",
           letterSpacing: "-0.2px",
         },

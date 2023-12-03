@@ -5,7 +5,10 @@
 :root {
   --white: #fff;
   --purple: #ad1fea;
+  --purple-button-hover: #c75af6;
   --blue: #4661e6;
+  --blue-link-hover: #8397f8;
+  --blue-button-hover: #cfd7ff;
   --orange: #f49f85;
   --blue-sky: #62bcfa;
   --dark-primary: #373f68;

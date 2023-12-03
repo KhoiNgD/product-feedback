@@ -1,4 +1,4 @@
-import Link from "next/link";
+import MotionLink from "./motions/motion-link";
 
 export default function SuggestionRoadmap() {
   const statuses = [
@@ -23,9 +23,7 @@ export default function SuggestionRoadmap() {
     <section className="bg-white p-6 rounded-medium">
       <div className="flex justify-between items-center">
         <h3 className="h3 text-dark-secondary">Roadmap</h3>
-        <Link href={"/roadmap"} className="p3 text-blue underline">
-          View
-        </Link>
+        <MotionLink href={"/roadmap"}>View</MotionLink>
       </div>
 
       <ul className="mt-6 flex flex-col gap-2">
@@ -34,7 +32,9 @@ export default function SuggestionRoadmap() {
             <li key={status.label} className="flex items-center">
               <div className={`p1 rounded-full w-2 h-2 bg-${status.color}`} />
               <p className="ml-4 text-gray-dark">{status.label}</p>
-              <strong className="ml-auto text-gray-dark">{status.quantity}</strong>
+              <strong className="ml-auto text-gray-dark">
+                {status.quantity}
+              </strong>
             </li>
           );
         })}
